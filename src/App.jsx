@@ -10,7 +10,7 @@ import CarsDetails from './components/Cars/CarsDetails';
 
 const App = () => {
   return (
-    <>
+    < div className='px-5 bg-red-600'>
       <BrowserRouter>
         <Routes>
           <Route path="/aaauto/" element={<Home />} />
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/aaauto/cardetails" element={<CarsDetails />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 export default App;
