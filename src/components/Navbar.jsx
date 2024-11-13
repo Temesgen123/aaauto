@@ -27,7 +27,7 @@ const Navbar = () => {
         <div></div>
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
-            to="/aaauto"
+            to="/"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Home
