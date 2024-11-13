@@ -20,38 +20,38 @@ const Navbar = () => {
             className="carIcon"
             style={{ color: 'silver', fontSize: '40px' }}
           />
-          <Link to="/" className="font-bold text-2xl">
+          <Link to="aaauto/" className="font-bold text-2xl">
             AAAutoMart
           </Link>
         </div>
         <div></div>
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
-            to="/"
+            to="aaauto/"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Home
           </Link>
           <Link
-            to="/about"
+            to="aaauto/about"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             About
           </Link>
           <Link
-            to="/cars"
+            to="aaauto/cars"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Cars
           </Link>
           <Link
-            to="/services"
+            to="aaauto/services"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Services
           </Link>
           <Link
-            to="/contactus"
+            to="aaauto/contactus"
             className="hidden lg:flex border-2 border-[#ccd8ec] text-lg px-4 rounded-md  hover:scale-90 hover:text-[c9c9e6] transition duration-200 ease-linear"
           >
             Contact
