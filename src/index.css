@@ -6,9 +6,9 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  display: flex;
-  justify-content: center;
-  margin: 2%;
+  margin : 0 auto;
+  padding: 2%;
+  background-color: #ff0000;  
 }
 .slick-slide > div {
   margin: 0 10px;
