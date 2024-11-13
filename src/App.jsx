@@ -10,7 +10,7 @@ import CarsDetails from './components/Cars/CarsDetails';
 
 const App = () => {
   return (
-    < div className='px-5 bg-red-600'>
+    <div className="px-2">
       <BrowserRouter>
         <Routes>
           <Route path="/aaauto/" element={<Home />} />

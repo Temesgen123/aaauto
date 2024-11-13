@@ -12,7 +12,7 @@ const Navbar = () => {
     setMenu(!menu);
   };
   return (
-    <header className="bg-[#010c42] text-white py-2  w-full z-10 px-4 ">
+    <header className="bg-[#010c42] text-white py-2  w-full z-10 px-5">
       {/* Desktop navigation section */}
       <nav className="container flex justify-between items-center ">
         <div className="flex item-center gap-5">
