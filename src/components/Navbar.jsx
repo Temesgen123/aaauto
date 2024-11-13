@@ -76,21 +76,21 @@ const Navbar = () => {
          text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 h-fit rounded-br-xl transition-transform duration-500 `}
       >
         <Link
-          to="/"
+          to="/aaauto/"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           Home
         </Link>
         <Link
-          to="/about"
+          to="/aaauto/about"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           About Us
         </Link>
-        <Link to="/cars">Cars</Link>
+        <Link to="/aaauto/cars">Cars</Link>
         <Link to="/services">Services</Link>
         <Link
-          to="/contactus"
+          to="/aaauto/contactus"
           className="border-2 w-full max-w-[250px] border-white py-1 px-4 rounded-md mx-auto"
         >
           Contact

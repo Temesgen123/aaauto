@@ -65,7 +65,7 @@ const Brands = () => {
                     {
                       e.preventDefault();
                       navigate({
-                        pathname: '/search',
+                        pathname: '/aaauto/search',
                         search: `query=${brand.brandName}`,
                       });
                     }

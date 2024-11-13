@@ -25,12 +25,12 @@ const Hero = () => {
             Explore the latest models and unbeatable offers.
           </p>
           <div className="flex gap-8 ">
-            <Link to={'/services'}>
+            <Link to={'/aaauto/services'}>
               <button className="bg-[#1b0459] py-1 px-4 rounded-md font-bold border-2 text-white hover:scale-95 hover:bg-white hover:text-[#1b0459] hover:border-blue-900 transition duration-400 ease-linear mt-5">
                 Explor More
               </button>
             </Link>
-            <Link to={'/cars'}>
+            <Link to={'/aaauto/cars'}>
               <button className=" border-2  border-[#1b0459] py-1 px-4 rounded-md bg-white text-[#010459] font-bold  hover:bg-[#1b0459] hover:text-white scale-95 transition duration-400 ease-linear mt-5">
                 See Cars
               </button>

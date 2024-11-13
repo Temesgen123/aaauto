@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaWhatsappSquare } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
@@ -25,53 +25,56 @@ const Footer = () => {
                 Phone : +251 911 123123
               </p>
               <p>
-                Email : <Link to="mailto:birechis@gmail.com"><span className='underline'>aaautomart@gmail.com</span></Link>
+                Email :{' '}
+                <Link to="mailto:birechis@gmail.com">
+                  <span className="underline">aaautomart@gmail.com</span>
+                </Link>
               </p>
             </div>
-            <div className='flex gap-2 mt-5'>   
-            <Link to='https://www.linkedin.com/in/temesgen-birechis-ab2a18319/'>
-                <FaXTwitter  size={32}/>
-              </Link>         
-              <Link to='https://www.linkedin.com/in/temesgen-birechis-ab2a18319/'>
-                <FaFacebookSquare  size={32}/>
+            <div className="flex gap-2 mt-5">
+              <Link to="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/">
+                <FaXTwitter size={32} />
               </Link>
-              <Link to='https://www.linkedin.com/in/temesgen-birechis-ab2a18319/'>
-                <FaInstagramSquare color='#ff0000' size={32} />
+              <Link to="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/">
+                <FaFacebookSquare size={32} />
               </Link>
-              <Link to='https://www.linkedin.com/in/temesgen-birechis-ab2a18319/'>
-                <FaLinkedin color='#0000ff' size={32}/>
+              <Link to="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/">
+                <FaInstagramSquare color="#ff0000" size={32} />
               </Link>
-              <Link to='https://www.linkedin.com/in/temesgen-birechis-ab2a18319/'>
-                <FaWhatsappSquare  size={32} />
+              <Link to="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/">
+                <FaLinkedin color="#0000ff" size={32} />
+              </Link>
+              <Link to="https://www.linkedin.com/in/temesgen-birechis-ab2a18319/">
+                <FaWhatsappSquare size={32} />
               </Link>
             </div>
           </div>
         </div>
-        <div className='oder-1 md:order-2'>
+        <div className="oder-1 md:order-2">
           <h1 className="font-semibold text-xl pb-4 pt-5 md:pt-0">
             Pages Links
           </h1>
           <div className="flex flex-col gap-2 font-medium">
             <Link
-              to="/"
+              to="/aaauto/"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Home
             </Link>
             <Link
-              to="/about"
+              to="/aaauto/about"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               About Us
             </Link>
             <Link
-              to="/cars"
+              to="/aaauto/cars"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Cars
             </Link>
             <Link
-              to="/services"
+              to="/aaauto/services"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Services
@@ -83,14 +86,14 @@ const Footer = () => {
             Used cars for sale
           </h1>
           <div className="flex flex-col gap-2 font-medium">
-            <button     
+            <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
                 {
                   e.preventDefault();
-                  const brandName = 'toyota'
+                  const brandName = 'toyota';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaauto/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -98,14 +101,14 @@ const Footer = () => {
             >
               Toyota
             </button>
-            <button              
+            <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
                 {
                   e.preventDefault();
-                  const brandName = 'honda'
+                  const brandName = 'honda';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaauto/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -113,14 +116,14 @@ const Footer = () => {
             >
               Honda
             </button>
-            <button              
+            <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
                 {
                   e.preventDefault();
-                  const brandName = 'hyundai'
+                  const brandName = 'hyundai';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaauto/search',
                     search: `query=${brandName}`,
                   });
                 }
@@ -128,23 +131,23 @@ const Footer = () => {
             >
               Hyundai
             </button>
-            <button              
+            <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
                 {
                   e.preventDefault();
-                  const brandName = 'nissan'
+                  const brandName = 'nissan';
                   navigate({
-                    pathname: '/search',
+                    pathname: '/aaauto/search',
                     search: `query=${brandName}`,
                   });
                 }
-              }}              
+              }}
             >
               Nissan
             </button>
           </div>
-        </div>       
+        </div>
       </div>
       <div>
         {}
