@@ -20,7 +20,7 @@ const Navbar = () => {
             className="carIcon"
             style={{ color: 'silver', fontSize: '40px' }}
           />
-          <Link to="/aaauto" className="font-bold text-2xl">
+          <Link to="/" className="font-bold text-2xl">
             AAAutoMart
           </Link>
         </div>
