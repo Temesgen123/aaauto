@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.heropage {
+  background-image: url('assets/images/heroImage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heroscreen {
+  background-image: linear-gradient(90deg, #000, #fff);
+}
+.pagination {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 1rem;
+  transition: all;
+  transition-duration: 5s;
+  transition-delay: 1s;
+  transition-timing-function: linear;
+}
+.pagination button {
+  width: 25px;
+  height: 25px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background: transparent;
+  color: #160ef6;
+  border-color: #eee;
+}
+.pagination button:hover {
+  scale: 1.1;
+  transition: all 0.5s ease;
+  transition-duration: 300ms;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  background: #8d97dc;
+  color: rgb(255, 0, 0);
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #010c42;
+  color: #ff0000;
+}
