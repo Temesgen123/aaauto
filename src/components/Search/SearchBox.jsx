@@ -7,7 +7,7 @@ export default function SearchBox() {
   const [query, setQuery] = useState('');
 
   const submitHandler = (e) => {
-    e.preventDefault();    
+    e.preventDefault();
     {
       query
         ? navigate(
@@ -28,7 +28,7 @@ export default function SearchBox() {
           type="search"
           name="query"
           value={query}
-          placeholder='Search cars ...'
+          placeholder="Search cars ..."
           id="query"
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Search Car"
@@ -37,7 +37,7 @@ export default function SearchBox() {
         />
       </div>
       <div className="rounded-r-full flex absolute h-full top-0 right-0 items-center bg-[#081e8a]">
-        <button type="submit" id="button-search">        
+        <button type="submit" id="button-search">
           <CiSearch
             className="searchIcon"
             style={{
