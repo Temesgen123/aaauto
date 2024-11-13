@@ -33,13 +33,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/aaauto/about"
+            to="/about"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             About
           </Link>
           <Link
-            to="/aaauto/cars"
+            to="/cars"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Cars
@@ -51,7 +51,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link
-            to="/aaauto/contactus"
+            to="/contactus"
             className="hidden lg:flex border-2 border-[#ccd8ec] text-lg px-4 rounded-md  hover:scale-90 hover:text-[c9c9e6] transition duration-200 ease-linear"
           >
             Contact
