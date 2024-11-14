@@ -2,11 +2,11 @@ const CarsData = [
   {
     id: 0,
     image: [
-      '/aaauto/src/assets/images/car1000x1000x0001.png',
-      '/aaauto/src/assets/images/cint0001.png',
-      '/aaauto/src/assets/images/cint0002.png',
-      '/aaauto/src/assets/images/cint0003.png',
-      '/aaauto/src/assets/images/cint0004.png',
+      'http://res.cloudinary.com/deiqvcg5b/image/upload/v1731589108/aaautomartimgs/iqaidxnix8gpj7cxcanx.png',
+      'https://res.cloudinary.com/deiqvcg5b/image/upload/v1731588275/aaautomartimgs/tfo1xtdh1difsoaojl6m.png',
+      'http://res.cloudinary.com/deiqvcg5b/image/upload/v1731588682/aaautomartimgs/r28cd2uwicejniabt2nb.png',
+      'http://res.cloudinary.com/deiqvcg5b/image/upload/v1731588822/aaautomartimgs/xudxbql9mb63agarvm2f.png',
+      'http://res.cloudinary.com/deiqvcg5b/image/upload/v1731588900/aaautomartimgs/adz8dofv4bmoljg58l3z.png',
     ],
     name: 'Mercedes',
     price: '$75,000',
