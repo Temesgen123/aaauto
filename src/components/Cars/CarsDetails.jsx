@@ -12,7 +12,7 @@ const CarsDetails = () => {
     <>
       <Navbar />
       <div
-        className="p-1 bg-green-500 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
+        className="p-1 bg-slate-200 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
       h-full  text-black rounded-xl"
       >
         <h1 className="text-3xl text-center font-bold mt-3 ">Car Details</h1>
@@ -58,26 +58,11 @@ const CarsDetails = () => {
               <p className="pl-2 md:pl-5  ">Miles : {car.mileage}</p>
               <p className="pl-2 md:pl-5  ">Seller : {car.seller}</p>
               <p className="pl-2 md:pl-5  ">Body Style : {car.bodyStyle}</p>
-              <p className="pl-2 md:pl-5  ">
-                {' '}
-                Exterior color : {car.extcolor}
-              </p>
-              <p className="pl-2 md:pl-5 ">
-                {' '}
-                Interior Color : {car.intcolor}
-              </p>
-              <p className="pl-2 md:pl-5">
-                {' '}
-                Transmission : {car.transmission}
-              </p>
-              <p className="pl-2 md:pl-5">
-                {' '}
-                Drive Line : {car.driveline}
-              </p>
-              <p className="pl-2 md:pl-5">
-                {' '}
-                Feul Type : {car.feultype}
-              </p>
+              <p className="pl-2 md:pl-5  "> Exterior color : {car.extcolor}</p>
+              <p className="pl-2 md:pl-5 "> Interior Color : {car.intcolor}</p>
+              <p className="pl-2 md:pl-5"> Transmission : {car.transmission}</p>
+              <p className="pl-2 md:pl-5"> Drive Line : {car.driveline}</p>
+              <p className="pl-2 md:pl-5"> Feul Type : {car.feultype}</p>
               <p className="pl-2 md:pl-5 ">MPG : {car.mpg}</p>
             </div>
             <div className="justify-between px-6 pb-2 ">
