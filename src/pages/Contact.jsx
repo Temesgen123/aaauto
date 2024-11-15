@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
-    <div className='bg-green-600 mt-24'>
+    <div className='bg-yellow-600 mt-24'>
       <Navbar />
       <ContactUs />
       <Footer />
