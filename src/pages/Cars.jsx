@@ -7,7 +7,7 @@ import OurCarsM from '../components/Cars/OurCrasM';
 
 const Cars = () => {
   return (
-    <div className='bg-blue-600'>
+    <div className='bg-green-600 mt-24'>
       <Navbar />
       <div className='hidden md:flex'>
         <OurCars />
