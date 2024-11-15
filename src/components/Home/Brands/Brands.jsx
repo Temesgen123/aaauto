@@ -47,11 +47,11 @@ const Brands = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-slate-100 mt-8 px-6 py-2 shadow-sm mx-auto">
-      <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15">
+      <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15 gap-1">
         {carBrands.map((brand) => (
           <div
             key={brand.brandName}
-            className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
+            className="bg-[#ff0000] w-full text-center flex justify-center rounded-3xl"
           >
             {' '}
             <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
