@@ -51,7 +51,7 @@ const Brands = () => {
         {carBrands.map((brand) => (
           <div
             key={brand.brandName}
-            className="bg-[#ff0000] w-full text-center flex justify-center rounded-3xl"
+            className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
           >
             {' '}
             <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
