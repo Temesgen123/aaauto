@@ -54,7 +54,7 @@ const Brands = () => {
             className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
           >
             {' '}
-            <button className="p-1 bg-red-500 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
+            <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
               <div className=" bg-slate-100 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-105 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
                 {' '}
                 <h1
