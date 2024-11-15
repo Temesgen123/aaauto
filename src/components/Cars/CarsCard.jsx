@@ -13,19 +13,19 @@ const CarsCard = ({
   seller,
   bodyStyle,
   extcolor,
-  intcolor ,
+  intcolor,
   transmission,
   driveline,
   feultype,
-  mpg, 
+  mpg,
 }) => {
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
   return (
     <div
       key={id}
       className="border-2 border-secondary h-full bg-slate-200 text-black rounded-xl mb-2 cursor-pointer hover:scale-95 transition duration-200 ease-linear max-w-sm sm:max-w-md md:max-w-lg"
     >
-      <img src={image[0]} alt="carimage" className="rounded-t-xl max-w-full" />     
+      <img src={image[0]} alt="carimage" className="rounded-t-xl max-w-full" />
       <h1 className="font-bold text-sm md:text-xl text-center md:pl-5 text-primary mb-1">
         {name}
       </h1>
@@ -43,35 +43,40 @@ const CarsCard = ({
       <div className="justify-between px-6 pb-2 ">
         <h3 className="font-semibold text-sm text-center text-red-600 my-1">
           Price : ${price}
-        </h3>        
-          <button className="bg-[#010c42] w-full text-white text-xs sm:text-sm 
+        </h3>
+        <button
+          className="bg-[#010c42] w-full text-white text-xs sm:text-sm 
            md:px-4 py-2 rounded-md hover:bg-primary transition duration-200 ease-linear
-            font-semibold" onClick={() => {            
-              navigate(
-                '/aaauto/cardetails', {
-                  state : {
-                    id,
-                    image,
-                    name,
-                    price,
-                    make,
-                    model,
-                    year,
-                    mileage,
-                    seller,
-                    bodyStyle,
-                    extcolor,
-                    intcolor ,
-                    transmission,
-                    driveline,
-                    feultype,
-                    mpg,
-                  }
-                }
-              )              
-            }}>
-            Details
-          </button>        
+            font-semibold"
+          onClick={() => {
+            navigate('/aaauto/cardetails', {
+              state: {
+                id,
+                image,
+                name,
+                price,
+                make,
+                model,
+                year,
+                mileage,
+                seller,
+                bodyStyle,
+                extcolor,
+                intcolor,
+                transmission,
+                driveline,
+                feultype,
+                mpg,
+              },
+            });
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth',
+            });
+          }}
+        >
+          Details
+        </button>
       </div>
     </div>
   );
