@@ -12,8 +12,8 @@ const CarsDetails = () => {
     <>
       <Navbar />
       <div
-        className="p-2 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
-      h-full bg-slate-100 text-black rounded-xl"
+        className="p-2 bg-red-500 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
+      h-full  text-black rounded-xl"
       >
         <h1 className="text-3xl text-center font-bold mt-3 ">Car Details</h1>
         <div className="md:flex p-5 justify-center">
