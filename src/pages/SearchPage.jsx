@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const SearchPage = () => {
   return (
-    <div className='bg-red-600 mt-24'>
+    <div className='bg-blue-600'>
     <Navbar />
     <Search />
     <Footer />      
