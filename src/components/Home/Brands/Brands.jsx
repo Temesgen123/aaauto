@@ -47,14 +47,14 @@ const Brands = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-slate-100 mt-8 px-6 py-2 shadow-sm mx-auto">
-      <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15">
+      <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15">
         {carBrands.map((brand) => (
           <div
             key={brand.brandName}
-            className="bg-[#010c42] m-[2px] w-full text-center  flex justify-center rounded-3xl"
+            className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
           >
             {' '}
-            <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
+            <button className="p-1 bg-red-500 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
               <div className=" bg-slate-100 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-105 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
                 {' '}
                 <h1

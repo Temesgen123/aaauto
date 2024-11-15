@@ -12,7 +12,7 @@ const CarsDetails = () => {
     <>
       <Navbar />
       <div
-        className="p-1 bg-slate-200 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
+        className="p-1 bg-slate-300 md:mx-3 md:mt-3 border-[1px] shadow-md border-secondary 
       h-full  text-black rounded-xl"
       >
         <h1 className="text-3xl text-center font-bold mt-3 ">Car Details</h1>
