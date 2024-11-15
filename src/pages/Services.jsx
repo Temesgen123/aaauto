@@ -5,11 +5,11 @@ import Footer from '../components/Footer';
 
 const Services = () => {
   return (
-    <>
+    <div className='bg-red-600 mt-24'>
       <Navbar />
       <OurServices />
       <Footer />
-    </>
+    </div>
   );
 };
 

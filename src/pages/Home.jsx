@@ -9,7 +9,7 @@ import Brands from '../components/Home/Brands/Brands';
 
 const Home = () => { 
   return (
-    <>
+    <div className='bg-red-600 mt-20'>
       <Navbar />
       <Hero />     
       <Featured />
@@ -17,7 +17,7 @@ const Home = () => {
       <TopRated />      
       <Brands />
       <Footer />
-    </>
+    </div>
   );
 };
 export default Home;
