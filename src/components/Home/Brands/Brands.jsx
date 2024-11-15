@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import { SiToyota } from 'react-icons/si';
 import { SiNissan } from 'react-icons/si';
@@ -45,18 +46,21 @@ const carBrands = [
 const Brands = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-slate-100 mt-8 px-6 py-2 shadow-sm ">
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-5">
+    <div className="bg-slate-100 mt-8 px-6 py-2 shadow-sm mx-auto">
+      <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15">
         {carBrands.map((brand) => (
           <div
             key={brand.brandName}
-            className="bg-slate-200 m-2 w-full text-center"
+            className="bg-[#010c42] m-[2px] w-full text-center  flex justify-center rounded-3xl"
           >
             {' '}
-            <button className="p-1 w-[64px] sm:w-[72px] md:w-[100px] ">
-              <div className="rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-105 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40 bg-[#d2d6ec] max-w-[64px] sm:max-w-[100px] md:max-w-full mx-[2px]">
+            <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
+              <div className=" bg-slate-100 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-105 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
                 {' '}
-                <h1 className="text-center font-bold text-xs ">
+                <h1
+                  className="text-center font-semibold
+                 max-w-full text-[2vw] sm:text-[1vw]"
+                >
                   {brand.brandName}
                 </h1>
                 <div
@@ -65,7 +69,7 @@ const Brands = () => {
                     {
                       e.preventDefault();
                       navigate({
-                        pathname: '/aaauto/search',
+                        pathname: '/search',
                         search: `query=${brand.brandName}`,
                       });
                     }
