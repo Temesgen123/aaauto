@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className="bg-[#010c42]  text-white fixed top-0  left-0 right-0 px-4  pt-8 pb-4 w-full  z-10">
       
       {/* Desktop navigation section */}
-      <nav className="container flex justify-between items-center px-10 ">
+      <nav className="container flex justify-between items-center px-5 ">
         <div className="flex item-center gap-5">
           <SiToyota
             className="carIcon"

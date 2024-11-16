@@ -7,7 +7,7 @@ const NewArrivals = () => {
     car.newArrival=== true
   )
   return (
-    <div className="container pt-5 mt-5 bg-slate-100">
+    <div className="container pt-5 mt-5 bg-slate-100 mx-auto">
       <div>
         <h1 className="font-bold text-4xl text-center">New Arrivals</h1>
         <p className='text-center text-lg'> Handpicked models that combine style, performance, and comfort.</p>
