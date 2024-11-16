@@ -13,7 +13,7 @@ const TopRated = () => {
       </div>
       <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
         {topRated.map((item) => (
-          <div key={item.id}>
+          <div key={item.id} className='mx-auto'>
             <CarsCard
               id={item.id}
               name={item.name}

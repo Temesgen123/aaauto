@@ -9,7 +9,7 @@ import Brands from '../components/Home/Brands/Brands';
 
 const Home = () => {
   return (
-    <div className="md:mt-20 mt-24 bg-green-500 mx-auto">
+    <div className="md:mt-20 mt-28 bg-green-500 mx-auto">
       <Navbar />
       <Hero />
       <Featured />

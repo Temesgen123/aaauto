@@ -11,12 +11,11 @@ const Navbar = () => {
   const handleChange = () => {
     setMenu(!menu);
   };
-  
+
   return (
     <header className="bg-[#010c42]  text-white fixed top-0  left-0 right-0 px-4  pt-8 pb-4 w-full  z-10">
-      
       {/* Desktop navigation section */}
-      <nav className="container flex justify-between items-center px-5 ">
+      <nav className="container flex justify-between items-center px-2 ">
         <div className="flex item-center gap-5">
           <SiToyota
             className="carIcon"
