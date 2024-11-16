@@ -17,7 +17,7 @@ const Search = () => {
   }, [searchedCar]);
 
   return (
-    <div className="container pt-5 mt-5 bg-slate-100">
+    <div className="container pt-2 mt-2 bg-slate-50">
       <div className="bg-slate-300">
         <h1 className="text-2xl text-center">Search Result for  &quot; <span className='font-bold text-blue-600'>{searchedTerm.toUpperCase()}</span> &quot;</h1>
       </div>

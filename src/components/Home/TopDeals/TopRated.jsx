@@ -6,7 +6,7 @@ const TopRated = () => {
   const topRated = carsData.filter((car) => car.topRated === true);
 
   return (
-    <div className="container pt-5 mt-5 mx-auto bg-yellow-500">
+    <div className="container pt-5 mt-5 mx-auto">
       <div>
         <h1 className="font-bold text-4xl text-center">Top Rated</h1>
         <p className='text-center text-lg'> Top picks that make every journey unforgettable.</p>

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="shadow-lg  heropage h-screen relative  ">
       <div className="container flex flex-col md:flex-row justify-center items-center">
         {/* Content section */}
-        <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-12 relative px-8">
+        <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-5 relative px-6">
           <h1
             className="text-4xl lg:text-5xl font-bold leading-tight
           md:bg-gradient-to-r from-white to-[#fff] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#010c42]"

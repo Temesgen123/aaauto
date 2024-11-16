@@ -12,7 +12,7 @@ const OurCars = () => {
   const currentPosts = CarsData.slice(firstPostIndex, lastPostIndex);
 
   return (
-    <div className="container pt-5">
+    <div className="container">
       <div>
         <h1 className="font-bold text-4xl text-center p-2">
           Our <span className="text-primary">Cars</span>

@@ -26,7 +26,7 @@ const OurServices = () => {
   const paragraphs5 = ' Upgrade or repair your vehicle with genuine parts and accessories. We offer a wide selection tailored to fit your car\'s make and model perfectly.';
   const paragraphs6 = 'Our team is dedicated to providing outstanding customer service. Reach out with any question and we will ensure you get the help you need.';
   return (
-    <div className="container pt-5">
+    <div className="container pt-2">
       <div>
         <h1 className="font-bold text-4xl text-center p-5">
           Our <span>Services</span>
