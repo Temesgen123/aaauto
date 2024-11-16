@@ -11,8 +11,9 @@ const Navbar = () => {
   const handleChange = () => {
     setMenu(!menu);
   };
+  
   return (
-    <header className="bg-[#010c42] text-white fixed top-0 py-2  w-full z-10 px-5 ">
+    <header className="bg-[#010c42] text-white fixed top-0 py-2  w-full z-10 ">
       {/* Desktop navigation section */}
       <nav className="container flex justify-between items-center ">
         <div className="flex item-center gap-5">
