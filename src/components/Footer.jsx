@@ -11,7 +11,7 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <footer className=" mt-5 md:mt-6 bg-[#010c42] text-white mx-auto  ms-0 me-0">
-      <div className="flex flex-col md:flex-row justify-between p-8 lg:px-18 md:px-16 px-5">
+      <div className="flex flex-col md:flex-row justify-between py-8 lg:px-18 md:px-16 px-5">
         <div className="w-full md:w-1/4 mt-3 md:mt-0 order-3 md:order-1">
           <div>
             <div>

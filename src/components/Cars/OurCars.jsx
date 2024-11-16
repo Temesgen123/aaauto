@@ -14,7 +14,7 @@ const OurCars = () => {
   return (
     <div className="container pt-5">
       <div>
-        <h1 className="font-bold text-4xl text-center">
+        <h1 className="font-bold text-4xl text-center p-2">
           Our <span className="text-primary">Cars</span>
         </h1>
       </div>

@@ -7,7 +7,7 @@ import OurCarsM from '../components/Cars/OurCrasM';
 
 const Cars = () => {
   return (
-    <div className='mt-28'>
+    <div className='mt-28  p-2 md:p-3 absolute left-0 right-0'>
       <Navbar />
       <div className='hidden md:flex'>
         <OurCars />
