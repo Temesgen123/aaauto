@@ -2,19 +2,19 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Home/Hero/Hero';
 import Featured from '../components/Home/Featured/Featured';
-import NewArrivals from '../components/Home/NewArrivals/NewArrivals'
+import NewArrivals from '../components/Home/NewArrivals/NewArrivals';
 import Footer from '../components/Footer';
 import TopRated from '../components/Home/TopDeals/TopRated';
 import Brands from '../components/Home/Brands/Brands';
 
-const Home = () => { 
+const Home = () => {
   return (
-    <div className='mt-20 bg-yellow-500'>
+    <div className="mt-20 bg-red-500">
       <Navbar />
-      <Hero />     
+      <Hero />
       <Featured />
       <NewArrivals />
-      <TopRated />      
+      <TopRated />
       <Brands />
       <Footer />
     </div>

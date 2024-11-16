@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   
   return (
-    <header className="bg-[#010c42] text-white fixed top-0 py-2  w-full z-10 ">
+    <header className="bg-[#010c42] text-white fixed top-0 py-2  w-full z-10 ms-0 me-0">
       {/* Desktop navigation section */}
       <nav className="container flex justify-between items-center ">
         <div className="flex item-center gap-5">
