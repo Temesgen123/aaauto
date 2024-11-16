@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const SearchPage = () => {
   return (
-    <div className='mt-20'>
+    <div className='mt-28'>
     <Navbar />
     <Search />
     <Footer />      

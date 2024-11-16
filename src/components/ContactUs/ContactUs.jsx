@@ -31,7 +31,7 @@ const ContactUs = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="rounded-lg shadow-sm p-10 bg-slate-50"
+        className="rounded-lg shadow-sm p-10 mt-5 bg-slate-50"
       >
         <h3 className='text-[#010c92]'>Contact Us</h3>
         <label className='text-[#010c92]'>Name :</label>
