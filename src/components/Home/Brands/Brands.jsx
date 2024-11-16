@@ -47,6 +47,7 @@ const Brands = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-slate-100 mt-8 px-3 py-2 shadow-sm mx-auto">
+      <h1 className='p-5 text-center text-2xl font-semibold mb-3'>Select by brand</h1>
       <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15 gap-1">
         {carBrands.map((brand) => (
           <div
