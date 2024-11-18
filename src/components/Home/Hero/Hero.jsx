@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full md:w-2/4 mt-4 rounded-2xl  h-full">
-          <img src={img} alt="img" className="rounded-xl w-24 md:hidden" />
+          <img src={img} alt="img" className="rounded-xl w-24 hidden" />
         </div>
       </div>
     </div>
