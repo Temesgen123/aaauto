@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  margin : 0 auto;
+  margin: 0 auto;
   padding: 2%;
 }
 .slick-slide > div {
   margin: 0 10px;
 }
 .heropage {
-  background-image: url('assets/images/heroImage.png');
+  background-image: url('assets/images/heroImageBlue.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
