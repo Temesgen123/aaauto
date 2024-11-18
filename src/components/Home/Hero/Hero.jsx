@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-10 relative px-6">
           <h1
             className="text-4xl lg:text-5xl font-bold leading-tight
-          md:bg-gradient-to-r from-[#fff] to-[#000000] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#0000ff]"
+          lg:bg-gradient-to-r from-[#fff] to-[#000000] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#0000ff]"
           >
             Drive into the future.
           </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full md:w-2/4 mt-4 rounded-2xl  h-full">
-          <img src={img} alt="img" className="rounded-xl hidden" />
+          <img src={img} alt="img" className="rounded-xl w-24 md:hidden" />
         </div>
       </div>
     </div>
