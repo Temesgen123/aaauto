@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="shadow-lg  heropage  h-screen relative  ">
+    <div className="shadow-lg  heropage h-[90vh]  md:h-screen relative bg-slate-100 ">
       <div className="container flex flex-col md:flex-row justify-center items-center">
         {/* Content section */}
         <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-10 relative px-6">
@@ -24,7 +24,7 @@ const Hero = () => {
           >
             Explore the latest models and unbeatable offers.
           </p>
-          <div className="flex gap-8 ">
+          <div className="flex gap-8">
             <Link to={'/aaauto/services'}>
               <button className="bg-[#1b0459] py-1 px-4 rounded-md font-bold border-2 text-white hover:scale-95 hover:bg-white hover:text-[#1b0459] hover:border-blue-900 transition duration-400 ease-linear mt-5">
                 Explor More
@@ -38,11 +38,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full md:w-2/4 mt-4 rounded-2xl  h-full">
-          <img
-            src={img}
-            alt="img"
-            className="rounded-xl  max-w-[50px] md:hidden"
-          />
+          <img src={img} alt="img" className="rounded-xl hidden" />
         </div>
       </div>
     </div>
