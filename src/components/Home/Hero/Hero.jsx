@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-10 relative px-6">
           <h1
             className="text-4xl lg:text-5xl font-bold leading-tight
-          md:bg-gradient-to-r from-[#0000ff] to-[#0000ff] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#0000ff]"
+          md:bg-gradient-to-r from-[#fff] to-[#000000] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#0000ff]"
           >
             Drive into the future.
           </h1>
