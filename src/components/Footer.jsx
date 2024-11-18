@@ -9,6 +9,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
   const navigate = useNavigate();
+  const handleLinkClick = (e) => {
+    window.scrollTo(0, 0); //Scroll to top
+  };
   return (
     <footer className=" mt-5 md:mt-6 bg-[#010c42] text-white mx-auto  ms-0 me-0">
       <div className="flex flex-col md:flex-row justify-between py-8 lg:px-18 md:px-16 px-5">
@@ -89,14 +92,13 @@ const Footer = () => {
             <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
-                {
-                  e.preventDefault();
-                  const brandName = 'toyota';
-                  navigate({
-                    pathname: '/aaauto/search',
-                    search: `query=${brandName}`,
-                  });
-                }
+                e.preventDefault();
+                const brandName = 'toyota';
+                navigate({
+                  pathname: '/aaauto/search',
+                  search: `query=${brandName}`,
+                });
+                handleLinkClick();
               }}
             >
               Toyota
@@ -104,14 +106,13 @@ const Footer = () => {
             <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
-                {
-                  e.preventDefault();
-                  const brandName = 'honda';
-                  navigate({
-                    pathname: '/aaauto/search',
-                    search: `query=${brandName}`,
-                  });
-                }
+                e.preventDefault();
+                const brandName = 'honda';
+                navigate({
+                  pathname: '/aaauto/search',
+                  search: `query=${brandName}`,
+                });
+                handleLinkClick();
               }}
             >
               Honda
@@ -119,14 +120,13 @@ const Footer = () => {
             <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
-                {
-                  e.preventDefault();
-                  const brandName = 'hyundai';
-                  navigate({
-                    pathname: '/aaauto/search',
-                    search: `query=${brandName}`,
-                  });
-                }
+                e.preventDefault();
+                const brandName = 'hyundai';
+                navigate({
+                  pathname: '/aaauto/search',
+                  search: `query=${brandName}`,
+                });
+                handleLinkClick();
               }}
             >
               Hyundai
@@ -134,14 +134,13 @@ const Footer = () => {
             <button
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear text-start"
               onClick={(e) => {
-                {
-                  e.preventDefault();
-                  const brandName = 'nissan';
-                  navigate({
-                    pathname: '/aaauto/search',
-                    search: `query=${brandName}`,
-                  });
-                }
+                e.preventDefault();
+                const brandName = 'nissan';
+                navigate({
+                  pathname: '/aaauto/search',
+                  search: `query=${brandName}`,
+                });
+                handleLinkClick();
               }}
             >
               Nissan
