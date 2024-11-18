@@ -60,3 +60,13 @@ body {
   background: #010c42;
   color: #ff0000;
 }
+
+/* Media query for screens smaller than 768px  */
+@media (max-width: 768px) {
+  div.heropage {
+    background-image: url('assets/images/homePageImage0002.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

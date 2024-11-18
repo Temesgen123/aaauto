@@ -41,7 +41,7 @@ const Hero = () => {
           <img
             src={img}
             alt="img"
-            className="rounded-xl  max-w-[100px] md:hidden"
+            className="rounded-xl  max-w-[50px] md:hidden"
           />
         </div>
       </div>
