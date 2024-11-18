@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../assets/images/heroimage.png';
+import img from '../../../assets/images/homePageImage0001.png';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -10,17 +10,17 @@ const Hero = () => {
         <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-10 relative px-6">
           <h1
             className="text-4xl lg:text-5xl font-bold leading-tight
-          md:bg-gradient-to-r from-white to-[#fff] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#010c42]"
+          md:bg-gradient-to-r from-[#0000ff] to-[#0000ff] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#0000ff]"
           >
             Drive into the future.
           </h1>
           {/* <div className='bg-[#fff] rounded-full w-16 h-16 absolute right-20 top-[25px] z-20 opacity-30 hover:blur-md shadow-[200px] hover:scale-150 ' >{}</div> */}
-          <h2 className=" text-xl lg:text-2xl font-bold text-[#010c42] md:text-white">
+          <h2 className=" text-xl lg:text-2xl font-bold text-[#0000ff] md:text-[#0000ff]">
             Over 100+ New Cars Available Here.
           </h2>
           <p
-            className="text-lg lg:text-base font-bold text-[#fc2b4b]
-          ] md:text-white"
+            className="text-lg lg:text-base font-bold text-[#0000ff]
+          ] md:text-[#0000ff]"
           >
             Explore the latest models and unbeatable offers.
           </p>
