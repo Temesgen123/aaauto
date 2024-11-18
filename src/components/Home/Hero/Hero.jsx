@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="shadow-lg  heropage h-[80vh]  md:h-screen relative bg-red-100 ">
+    <div className="shadow-lg  heropage h-[80vh]  md:h-screen relative bg-slate-100 ">
       <div className="container flex flex-col md:flex-row justify-center items-center">
         {/* Content section */}
         <div className="w-full md:w-2/4 space-y-5 md:mt-24 mt-10 relative px-6">
