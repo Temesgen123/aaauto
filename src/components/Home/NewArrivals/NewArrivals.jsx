@@ -3,18 +3,19 @@ import CarsCard from '../../Cars/CarsCard.jsx';
 import carsData from '../../../CarsData.jsx';
 
 const NewArrivals = () => {
-  const newArrivals = carsData.filter((car) => 
-    car.newArrival=== true
-  )
+  const newArrivals = carsData.filter((car) => car.newArrival === true);
   return (
     <div className="container pt-5 mt-5 bg-slate-100 mx-auto">
       <div>
         <h1 className="font-bold text-4xl text-center">New Arrivals</h1>
-        <p className='text-center text-lg'> Handpicked models that combine style, performance, and comfort.</p>
+        <p className="text-center text-lg">
+          {' '}
+          Selected models that combine style, performance, and comfort.
+        </p>
       </div>
       <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
         {newArrivals.map((item) => (
-          <div key={item.id} className='mx-auto'>
+          <div key={item.id} className="mx-auto">
             <CarsCard
               id={item.id}
               name={item.name}
@@ -24,14 +25,14 @@ const NewArrivals = () => {
               model={item.model}
               year={item.year}
               mileage={item.mileage}
-              seller={item.seller}   
-              bodyStyle = {item.bodyStyle}
-              extcolor = {item.extcolor}
-              intcolor = {item.intcolor}
-              transmission = {item.transmission}
-              driveline = {item.driveline}              
-              feultype = {item.feultype}
-              mpg = {item.mpg}           
+              seller={item.seller}
+              bodyStyle={item.bodyStyle}
+              extcolor={item.extcolor}
+              intcolor={item.intcolor}
+              transmission={item.transmission}
+              driveline={item.driveline}
+              feultype={item.feultype}
+              mpg={item.mpg}
             />
           </div>
         ))}
