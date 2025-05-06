@@ -141,11 +141,11 @@ const Brands = () => {
           {carBrands.map((brand) => (
             <div
               key={brand.brandName}
-              className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
+              className="md:bg-[#bfc5eb] text-center flex justify-center rounded-xl"
             >
               {' '}
               <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
-                <div className=" bg-slate-100 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-95 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
+                <div className="min-w-32 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-95 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
                   {' '}
                   <h1
                     className="text-center font-semibold
@@ -171,7 +171,18 @@ const Brands = () => {
                   >
                     <brand.iconName
                       className="carIcon"
-                      style={{ color: '#f00', fontSize: '72px', background: '#fff' }}
+                      md:style={{
+                        color: '#f00',
+                        fontSize: '72px',
+                        background: '#bfc5eb',
+                      }}
+                      style={{
+                        color: '#f00',
+                        fontSize: '90px',
+                        background: '#bfc5eb',
+                        borderRadius: '8px',
+                        maxWidth: '72px',
+                      }}
                     />
                   </div>
                 </div>
