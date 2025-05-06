@@ -141,7 +141,7 @@ const Brands = () => {
           {carBrands.map((brand) => (
             <div
               key={brand.brandName}
-              className="md:bg-[#bfc5eb] text-center flex justify-center rounded-xl"
+              className="md:bg-[#7080af] text-center flex justify-center rounded-xl"
             >
               {' '}
               <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
@@ -172,14 +172,14 @@ const Brands = () => {
                     <brand.iconName
                       className="carIcon"
                       md:style={{
-                        color: '#f00',
+                        color: '#fff',
                         fontSize: '72px',
-                        background: '#bfc5eb',
+                        background: '#7080af',
                       }}
                       style={{
                         color: '#f00',
                         fontSize: '90px',
-                        background: '#bfc5eb',
+                        background: '#7080af',
                         borderRadius: '8px',
                         maxWidth: '72px',
                       }}
