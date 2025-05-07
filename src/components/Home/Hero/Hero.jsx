@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="shadow-lg  heropage bg-gradient-to-r from-blue-900 to-slate-200  h-[22vh] md:h-[80vh] relative md:bg-slate-100 ">
+    <div className="shadow-lg  heropage bg-gradient-to-r from-blue-900 to-slate-200  h-[18vh] md:h-[60vh] relative md:bg-slate-100 ">
       <div className="container flex flex-col md:flex-row justify-left px-6 items-center">
         {/* Content section */}
         <div
