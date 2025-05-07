@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container flex flex-col md:flex-row justify-left px-6 items-center">
         {/* Content section */}
         <div
-          className="w-full md:w-2/4 space-y-[2px] md:space-y-5 md:mt-24 mt-12 relative 
+          className="w-full md:w-2/4 space-y-[2px] md:space-y-5 md:mt-24 mt-15 relative 
         px-12 md:px-12"
         >
           <h1
