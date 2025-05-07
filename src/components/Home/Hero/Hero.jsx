@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Content section */}
         <div
           className="w-full md:w-2/4 space-y-[2px] md:space-y-5 md:mt-24 mt-6 relative 
-        px-12 md:px-12 "
+        px-12 md:px-12"
         >
           <h1
             className="text-[16px] lg:text-5xl font-bold leading-tight
