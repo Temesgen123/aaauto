@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="shadow-lg  heropage h-[24vh] md:h-[80vh] relative md:bg-slate-100 ">
-      <div className="container flex flex-col md:flex-row justify-left items-center">
+    <div className="shadow-lg  heropage bg-gradient-to-r from-blue-900 to-slate-200  h-[24vh] md:h-[80vh] relative md:bg-slate-100 ">
+      <div className="container flex flex-col md:flex-row justify-left items-baseline">
         {/* Content section */}
         <div className="w-full md:w-2/4 space-y-1 md:space-y-5 md:mt-24 mt-6 relative 
-        px-20 md:px-6">
+        px-20 md:px-6 ">
           <h1
             className="text-[18px] lg:text-5xl font-bold leading-tight
           lg:bg-gradient-to-r from-[#fff] to-[#faf9fc] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#fff]"

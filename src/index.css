@@ -65,10 +65,10 @@ body {
 /* Media query for screens smaller than 768px  */
 @media(max-width: 768px) {
   .heropage {
-    background-image: url('assets/images/autobanner-m.png');
+    background-image: url('assets/images/aaautobanner-m.png');
     background-size:contain;
-    background-position:calc(-90% + 1px) calc(2% + 10px);
-    scale: 1.4;
+    background-position:calc(50% + 1px) calc(2% + 10px);
+    scale: 1.33;
     background-repeat: no-repeat;    
   }
 }
