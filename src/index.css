@@ -13,9 +13,10 @@ body {
   margin: 0 10px;
 }
 .heropage {
-  background-image: url('assets/images/homePageImage0001.png');
-  background-size: cover;
-  background-position: center;
+  background-image: url('assets/images/autobanner.png');
+  background-size:auto;
+  /* background-position:calc(50% - 400px) calc(50% - 10px); */
+  background-position: right;
   background-repeat: no-repeat;
 }
 .heroscreen {

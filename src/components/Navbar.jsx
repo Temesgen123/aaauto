@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { IoMdCar } from 'react-icons/io';
-import { SiToyota } from 'react-icons/si';
+// import { IoMdCar } from 'react-icons/io';
+import aaautoIcon from '../../src/assets/images/aaautoIcon.png';
 import { AiOutlineClose } from 'react-icons/ai';
 import { RiMenuUnfoldFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
@@ -13,19 +13,16 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-[#010c42]  text-white fixed top-0  left-0 right-0 px-4  pt-8 pb-4 w-full  z-10">
+    <header className="bg-[#010c42]  text-white fixed top-0  left-0 right-0 px-4  pt-4 pb-4 w-full  z-10">
       {/* Desktop navigation section */}
       <nav className="container flex justify-between items-center px-2 ">
-        <div className="flex item-center gap-5">
-          <SiToyota
-            className="carIcon"
-            style={{ color: 'silver', fontSize: '40px' }}
-          />
+        <div className="flex item-center gap-5">         
+          <img src={aaautoIcon} width='32px'  alt='aaautoIcon'/>
           <Link to="/aaauto/" className="font-bold text-2xl">
             AAAutoMart
           </Link>
         </div>
-        <div></div>
+        {/* <div></div> */}
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
             to="/aaauto/"
@@ -66,7 +63,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      <div>
+      <div className='mt-4'>
         <SearchBox />
       </div>
       {/* Responsive section */}
