@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container flex flex-col md:flex-row justify-left px-6 items-center">
         {/* Content section */}
         <div
-          className="w-full md:w-2/4 md:space-y-5 md:mt-24 mt-8 relative 
+          className="w-full md:w-2/4 md:space-y-5 md:mt-24 mt-12 relative 
         px-12 md:px-12 "
         >
           <h1
@@ -15,7 +15,7 @@ const Hero = () => {
           lg:bg-gradient-to-r from-[#fff] to-[#faf9fc] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#fff]"
           >
             Drive into the future.
-          </h1>         
+          </h1>
           <h2 className=" text-[12px] lg:text-2xl font-bold text-[#f4f4f6] md:text-[#f4f4f6]">
             Over 100+ New Cars Available Here.
           </h2>
@@ -25,7 +25,7 @@ const Hero = () => {
           >
             Explore the latest models and unbeatable offers.
           </p>
-          <div className="flex md:gap-8 gap-4 ">
+          <div className="flex md:gap-8 gap-4 mt-5 md:mt-0">
             <Link to={'/aaauto/services'}>
               <button
                 className="bg-[#1b0459] px-2 rounded-md font-bold border-2 
@@ -43,7 +43,7 @@ const Hero = () => {
               </button>
             </Link>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   );
