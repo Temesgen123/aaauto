@@ -20,7 +20,8 @@ const Vision = () => {
             selection of vehicles, competitive price, loyalty to customers and
             the community, and commitment to innovation and sustainability in
             the automotive industry.
-          </p>{}              
+          </p>
+          {}
           <p className="text-sm lg:text-base pl-5">
             {' '}
             With 25 years in the automotive industry, we have built a reputation
@@ -35,36 +36,3 @@ const Vision = () => {
   );
 };
 export default Vision;
-
-// const Vision = () => {
-//   return (
-//     <div className="flex flex-col justify-center md:flex-row item-center gap-5 mt-8">
-//       {/* content section */}
-//       <div className="w-full space-y-4">
-//         <div className="bg-red-500">
-//           <h1 className="text-xl font-bold">
-//             Our <span className="text-blue-700">Vision</span>
-//           </h1>
-//           <p className="text-sm lg:text-base">
-//             {' '}
-//             &quot;To be the leading dealership in automotive market in our area,
-//             recognized for our exceptional customer care, diverse selection of
-//             vehicles, competitive price, loyalty to customers and the community,
-//             and commitment to innovation and sustainability in the automotive
-//             industry.&quot;
-//           </p>
-//           <p className="text-sm lg:text-base">
-//             {' '}
-//             We are customer-focused, ethical, and community-oriented company and
-//             we strive to grow through sustainability and innovation.
-//           </p>
-//         </div>
-//         <div className="w-full md:w-2/5 my-auto">
-//           <img src={img} alt="image" className="rounded-lg" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Vision;

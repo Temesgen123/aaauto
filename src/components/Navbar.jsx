@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { IoMdCar } from 'react-icons/io';
 import aaautoIcon from '../../src/assets/images/aaautoIcon.png';
 import { AiOutlineClose } from 'react-icons/ai';
 import { RiMenuUnfoldFill } from 'react-icons/ri';

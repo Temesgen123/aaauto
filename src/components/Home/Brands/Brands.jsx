@@ -61,22 +61,20 @@ const Brands = () => {
     variableWidth: true,
     responsive: [
       {
-        breakpoint: 1024, //1024
+        breakpoint: 1024,
         settings: {
           dots: true,
           Infinite: true,
-          slideToShow: 3, //3
-          slideToScroll: 1, //3
-          centerMode: false, //added
-          // intialSlide: 2,
+          slideToShow: 3,
+          slideToScroll: 1,
+          centerMode: false,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slideToShow: 2,
-          slideToScroll: 1, //2
-          // intialSlide: 2,
+          slideToScroll: 1,
         },
       },
       {
@@ -84,7 +82,6 @@ const Brands = () => {
         settings: {
           slideToShow: 1,
           slideToScroll: 1,
-          // intialSlide: 2,
         },
       },
     ],
@@ -94,48 +91,6 @@ const Brands = () => {
       <h1 className="p-5 text-center text-2xl font-semibold mb-3">
         Select by brand
       </h1>
-      {/* <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-10 lg:grid-cols-15 gap-1">
-        {carBrands.map((brand) => (
-          <div
-            key={brand.brandName}
-            className="bg-[#010c42] w-full text-center flex justify-center rounded-3xl"
-          >
-            {' '}
-            <button className="p-1 w-full max-w-[64px] sm:max-w-[72px] md:max-w-full">
-              <div className=" bg-slate-100 rounded-lg hover:bg-[#8d97dc] hover:text-[#ff0000] hover:scale-95 transition duration-300 ease-linear hover:shadow-xl hover:shadow-[#6a6262] hover:backdrop-blur-xl hover:bg-opacity-40  max-w-full">
-                {' '}
-                <h1
-                  className="text-center font-semibold
-                 max-w-full text-[2vw] sm:text-[1vw]"
-                >
-                  {brand.brandName}
-                </h1>
-                <div
-                  className="flex justify-center hover:text-white"
-                  onClick={(e) => {
-                    {
-                      e.preventDefault();
-                      navigate({
-                        pathname: '/aaauto/search',
-                        search: `query=${brand.brandName}`,
-                      });
-                      window.scrollTo({
-                        top: 0,
-                        behavior: 'smooth',
-                      });
-                    }
-                  }}
-                >
-                  <brand.iconName
-                    className="carIcon"                    
-                    style={{ color: '#000', fontSize: '50px' }} 
-                  />
-                </div>
-              </div>
-            </button>
-          </div>
-        ))}
-      </div> */}
       <div className="">
         <Slider {...settings}>
           {carBrands.map((brand) => (

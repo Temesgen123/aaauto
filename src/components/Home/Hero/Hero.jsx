@@ -1,6 +1,4 @@
 import React from 'react';
-// import img from '../../../assets/images/homePageImage0001.png'
-import img from '../../..//assets/images/aaautoIcon.png';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -17,8 +15,7 @@ const Hero = () => {
           lg:bg-gradient-to-r from-[#fff] to-[#faf9fc] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#fff]"
           >
             Drive into the future.
-          </h1>
-          {/* <div className='bg-[#fff] rounded-full w-16 h-16 absolute right-20 top-[25px] z-20 opacity-30 hover:blur-md shadow-[200px] hover:scale-150 ' >{}</div> */}
+          </h1>         
           <h2 className=" text-[12px] lg:text-2xl font-bold text-[#f4f4f6] md:text-[#f4f4f6]">
             Over 100+ New Cars Available Here.
           </h2>
@@ -46,10 +43,7 @@ const Hero = () => {
               </button>
             </Link>
           </div>
-        </div>
-        {/* <div className="w-full md:w-2/4 mt-4 rounded-2xl  h-full p-12 bg-red-500">
-          <img src={img} alt="img" className="rounded-xl w-24 hidden" />
-        </div> */}
+        </div>        
       </div>
     </div>
   );

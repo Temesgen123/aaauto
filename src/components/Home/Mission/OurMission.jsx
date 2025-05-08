@@ -1,5 +1,4 @@
 import React from 'react';
-// import img from '../../../assets/images/car0002.png';
 
 const OurMission = () => {
   return (
@@ -10,25 +9,13 @@ const OurMission = () => {
         </p>
       </div>
       <div className="flex flex-col justify-center md:flex-row items-center gap-5 mt-8 ">
-        {/* image section */}
-        <div className="w-full md:w-2/4 ">
-          {/* <img src={img} alt="img" className="rounded-3xl max-w-md mx-auto" /> */}
-        </div>
+        {/* image section */}        
         {/* content section */}
         <div className="w-full md:w-2/4 space-y-2/4">
           <h1 className="font-bold text-lg lg:text-3xl">
             {' '}
             To create a community where every journey is extraordinary.
-          </h1>
-          
-          {/* <h2 className="font-semibold text-lg lg:text-2xl mb-2">
-            Empower individuals to achieve sustainable mobility solutions and
-            inspire a positive impact on the environment.
-          </h2> */}
-          <br />
-          {/* <p className="text-sm lg:text-base">
-           Our mission is to create a community where every journey is extraordinary and to empower individuals to achieve sustainable mobility solutions and inspire a positive impact on the environment.     
-          </p> */}
+          </h1>            
           <p className="text-sm lg:text-base">
             Our mission is to provide an exceptional car buying experience,
             offering high-quality vehicles at competitive prices while
