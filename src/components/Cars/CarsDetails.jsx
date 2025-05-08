@@ -15,7 +15,7 @@ const CarsDetails = () => {
         className="pt-5 mt-12 bg-slate-300 md:mx-3 md:mt-12 border-[1px] shadow-md border-secondary 
       h-full  text-black rounded-xl"
       >
-        <h1 className="text-3xl text-center font-bold mt-8 ">Car Details</h1>
+        <h1 className="text-3xl text-center font-bold mt-12 md:mt-10 ">Car Details</h1>
         <div className="md:flex p-5 justify-center">
           <div
             key={location.state.id}

@@ -15,7 +15,7 @@ const OurCars = () => {
     <div className="container">
       <div>
         <h1 className="font-bold text-4xl text-center p-2">
-          Our <span className="text-primary">Cars</span>
+          Our <span className="text-primary text-blue-700">Cars</span>
         </h1>
       </div>
       <div className="flex">

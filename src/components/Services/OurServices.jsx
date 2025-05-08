@@ -29,7 +29,7 @@ const OurServices = () => {
     <div className="container pt-2">
       <div>
         <h1 className="font-bold text-4xl text-center p-5">
-          Our <span>Services</span>
+          Our <span className='text-blue-700'>Services</span>
         </h1>
         <div>
           <img src= {image} alt=''/>
