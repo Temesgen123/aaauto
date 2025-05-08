@@ -15,7 +15,6 @@ body {
 .heropage {
   background-image: url('assets/images/autobanner.png');
   background-size:auto;
-  /* background-position:calc(50% - 400px) calc(50% - 10px); */
   background-position: right;
   background-repeat: no-repeat;
 }
