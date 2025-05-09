@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="shadow-lg h-[16vh] md:h-[72vh] relative -mt-5">
       <div className="flex flex-col md:flex-row justify-left px-6 items-center">
-        <div className='absolute -left-10 top-0 md:-left-20 md:-top-72'>
+        <div className='absolute -left-10 top-1 md:-top-72'>
         <img src={heroImage}  className=''/>
         </div>
         
