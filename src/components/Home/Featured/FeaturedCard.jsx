@@ -4,13 +4,13 @@ const FeaturedCard = ({ id, image, name, price }) => {
   return (
     <div
       key={id}
-      className="border-2 border-secondary bg-slate-100 rounded-xl mb-2 cursor-pointer hover:scale-90 hover:bg-slate-200 transition duration-300 ease-linear"
+      className="border-2 border-secondary bg-slate-100 rounded-xl mb-2 cursor-pointer hover:scale-90 hover:bg-slate-200 transition duration-300 ease-linear w-32"
     >
       <div>
         <img
           src={image[0]}
           alt="carimage"
-          className="rounded-t-xl max-w-[160px] sm:max-w-[240px] md:max-w-[300px]"
+          className="rounded-t-xl max-w-[120px] sm:max-w-[120px] md:max-w-[120px]"
         />
       </div>
       <div className="flex flex-col justify-center items-center">
