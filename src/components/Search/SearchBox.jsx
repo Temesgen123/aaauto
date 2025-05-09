@@ -20,7 +20,7 @@ export default function SearchBox() {
   };
   return (
     <form
-      className="flex justify-center mx-auto relative  max-w-[80%] sm:max-w-[75%]  md:max-w-[60%] lg:max-w-[50%] my-2"
+      className="flex justify-center mx-auto relative  max-w-[70%] sm:max-w-[60%]  md:max-w-[60%] lg:max-w-[50%] my-2"
       onSubmit={submitHandler}
     >
       <div className="w-full mx-auto">

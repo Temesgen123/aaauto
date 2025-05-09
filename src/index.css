@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  margin: 0 auto;
+  margin: 0 ;
   padding: 2%;
 }
 .slick-slide > div {
@@ -14,9 +14,11 @@ body {
 }
 .heropage {
   background-image: url('assets/images/autobanner.png');
-  background-size:auto;
+  background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  margin-bottom: 12pxpx;
+  margin-top: -5px;
 }
 .heroscreen {
   background-image: linear-gradient(90deg, #000, #fff);
@@ -62,13 +64,12 @@ body {
 }
 
 /* Media query for screens smaller than 768px  */
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .heropage {
     background-image: url('assets/images/aaautobanner-m.png');
-    background-size:contain;
-    background-position:calc(50% + 0px) calc(2% + 10px);    
-    scale: 1.36;
-    background-repeat: no-repeat;    
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+    scale: 1.33;
   }
 }
-

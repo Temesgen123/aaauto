@@ -62,7 +62,7 @@ const Navbar = () => {
           )}
         </div>
       </nav>
-      <div className="mt-4">
+      <div className="mt-3">
         <SearchBox />
       </div>
       {/* Responsive section */}

@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="shadow-lg  heropage  h-[31vh] md:h-[80vh] relative md:bg-slate-100">
-      <div className="container flex flex-col md:flex-row justify-left px-6 items-center">
+    <div className="shadow-lg heropage h-[32vh] md:h-[80vh]">
+      <div className="flex flex-col md:flex-row justify-left px-6 items-center">
         {/* Content section */}
-        <div
-          className="w-full md:w-2/4 md:space-y-5 md:mt-24 mt-12 relative 
+        <div 
+          className="w-full md:w-2/4 md:space-y-5 md:mt-24 mt-12
         px-12 md:px-12 "
         >
           <h1
-            className="text-[18px] lg:text-5xl font-bold leading-tight
+            className="text-[18px] lg:text-5xl  font-bold leading-tight
           lg:bg-gradient-to-r from-[#fff] to-[#faf9fc] bg-clip-text md:text-transparent backdrop-opacity-50  text-[#fff]"
           >
             Drive into the future.
