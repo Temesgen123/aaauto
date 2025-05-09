@@ -59,7 +59,7 @@ const Featured = () => {
       <p className="text-center text-lg">
         Featured cars that fit your lifestyle and exceeds expectations.
       </p> */}
-      <div className="mt-32 md:-mt-32">
+      <div className="mt-36 md:-mt-32">
         <Slider {...settings}>
           {featuredCars.map((item) => (
             <FeaturedCard
