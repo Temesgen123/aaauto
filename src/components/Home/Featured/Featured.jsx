@@ -51,7 +51,7 @@ const Featured = () => {
     ],
   };
   return (
-    <div className="container mt-12">
+    <div className="container mt-2 md:mt-12">
       {/* <h1 className="font-bold text-4xl text-center mb-2">
         Featured {}
         <span className="text-[#1920a8]">Cars</span>

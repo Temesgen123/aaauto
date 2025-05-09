@@ -14,11 +14,11 @@ const FeaturedCard = ({ id, image, name, price }) => {
         />
       </div>
       <div className="flex flex-col justify-center items-center">
-        <h1 className="font-semibold  text-md md:text-lg pt-1 text-orange-600">
+        <h1 className="font-semibold  text-[10px] md:text-[12px] pt-1 text-orange-600">
           {name}
         </h1>
         <div className="flex gap-5 pt-1">
-          <h2 className="text-sm md:text-md">Starting at ${price}</h2>
+          <h2 className="text-[10px] md:text-[12px">Starting at ${price}</h2>
         </div>
       </div>
     </div>

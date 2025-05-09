@@ -5,7 +5,7 @@ import carsData from '../../../CarsData.jsx';
 const NewArrivals = () => {
   const newArrivals = carsData.filter((car) => car.newArrival === true);
   return (
-    <div className="container pt-5 mt-5 bg-slate-100 mx-auto">
+    <div className="container pt-5 mt-1 md:mt-5 bg-slate-100 mx-auto">
       <div>
         <h1 className="font-bold text-4xl text-center">New Arrivals</h1>
         <p className="text-center text-lg">
