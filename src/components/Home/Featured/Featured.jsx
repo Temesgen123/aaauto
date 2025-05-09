@@ -51,14 +51,7 @@ const Featured = () => {
     ],
   };
   return (
-    <div className="container mt-2 md:mt-12">
-      {/* <h1 className="font-bold text-4xl text-center mb-2">
-        Featured {}
-        <span className="text-[#1920a8]">Cars</span>
-      </h1>
-      <p className="text-center text-lg">
-        Featured cars that fit your lifestyle and exceeds expectations.
-      </p> */}
+    <div className="container mt-2 md:mt-12">      
       <div className="mt-36 md:-mt-32">
         <Slider {...settings}>
           {featuredCars.map((item) => (
