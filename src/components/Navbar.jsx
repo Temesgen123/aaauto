@@ -15,9 +15,9 @@ const Navbar = () => {
     <header className="bg-[#010c42]  text-white fixed top-0  left-0 right-0 px-5 md:px-4  pt-4 pb-4 w-full  z-10">
       {/* Desktop navigation section */}
       <nav className="container flex justify-between items-center px-2">
-        <div className="flex item-center gap-5">
+        <div className="flex item-center gap-2 md:gap-5">
           <img src={aaautoIcon} width="32px" alt="aaautoIcon" />
-          <Link to="/aaauto/" className="font-bold text-2xl">
+          <Link to="/aaauto/" className="font-bold text-xl">
             AAAutoMart
           </Link>
         </div>
