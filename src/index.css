@@ -12,14 +12,14 @@ body {
 .slick-slide > div {
   margin: 0 10px;
 }
-.heropage {
+/* .heropage {
   background-image: url('assets/images/autobanner.png');
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
   margin-bottom: 12pxpx;
   margin-top: -5px;
-}
+} */
 .heroscreen {
   background-image: linear-gradient(90deg, #000, #fff);
 }
