@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 //vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/aaauto/',
   build: {
     outDir: 'dist',
   },
