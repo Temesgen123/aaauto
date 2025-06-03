@@ -17,38 +17,38 @@ const Navbar = () => {
       <nav className="container flex justify-between items-center px-2">
         <div className="flex item-center gap-2 md:gap-5">
           <img src={aaautoIcon} width="32px" alt="aaautoIcon" />
-          <Link to="/aaauto/" className="font-bold text-xl">
+          <Link to="/" className="font-bold text-xl">
             AAAutoMart
           </Link>
         </div>
         {/* <div></div> */}
         <div className="hidden md:flex items-center font-medium text-xl gap-8 ">
           <Link
-            to="/aaauto/"
+            to="/"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Home
           </Link>
           <Link
-            to="/aaauto/about"
+            to="/about"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             About
           </Link>
           <Link
-            to="/aaauto/cars"
+            to="/cars"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Cars
           </Link>
           <Link
-            to="/aaauto/services"
+            to="/services"
             className="hover:text-[#c9c9e6] hover:scale-90 transition duration-200 ease-linear"
           >
             Services
           </Link>
           <Link
-            to="/aaauto/contactus"
+            to="/contactus"
             className="hidden lg:flex border-2 border-[#ccd8ec] text-lg px-4 rounded-md  hover:scale-90 hover:text-[c9c9e6] transition duration-200 ease-linear"
           >
             Contact
@@ -73,21 +73,21 @@ const Navbar = () => {
          text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 h-fit rounded-br-xl transition-transform duration-500 `}
       >
         <Link
-          to="/aaauto/"
+          to="/"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           Home
         </Link>
         <Link
-          to="/aaauto/about"
+          to="/about"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           About Us
         </Link>
-        <Link to="/aaauto/cars">Cars</Link>
+        <Link to="/cars">Cars</Link>
         <Link to="/aaauto/services">Services</Link>
         <Link
-          to="/aaauto/contactus"
+          to="/contactus"
           className="border-2 w-full max-w-[250px] border-white py-1 px-4 rounded-md mx-auto"
         >
           Contact
