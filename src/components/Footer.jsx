@@ -59,25 +59,25 @@ const Footer = () => {
           </h1>
           <div className="flex flex-col gap-2 font-medium">
             <Link
-              to="/aaauto/"
+              to="/"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Home
             </Link>
             <Link
-              to="/aaauto/about"
+              to="/about"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               About Us
             </Link>
             <Link
-              to="/aaauto/cars"
+              to="/cars"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Cars
             </Link>
             <Link
-              to="/aaauto/services"
+              to="/services"
               className="hover:text-slate-300 hover:translate-x-3 transition duration-200 ease-linear"
             >
               Services
@@ -109,7 +109,7 @@ const Footer = () => {
                 e.preventDefault();
                 const brandName = 'honda';
                 navigate({
-                  pathname: '/aaauto/search',
+                  pathname: '/search',
                   search: `query=${brandName}`,
                 });
                 handleLinkClick();
@@ -123,7 +123,7 @@ const Footer = () => {
                 e.preventDefault();
                 const brandName = 'hyundai';
                 navigate({
-                  pathname: '/aaauto/search',
+                  pathname: '/search',
                   search: `query=${brandName}`,
                 });
                 handleLinkClick();
@@ -137,7 +137,7 @@ const Footer = () => {
                 e.preventDefault();
                 const brandName = 'nissan';
                 navigate({
-                  pathname: '/aaauto/search',
+                  pathname: '/search',
                   search: `query=${brandName}`,
                 });
                 handleLinkClick();

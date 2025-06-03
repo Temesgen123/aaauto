@@ -34,7 +34,7 @@ const Hero = () => {
             Explore the latest models and unbeatable offers.
           </p>
           <div className="flex md:gap-8 gap-4  md:py-10 md:mt-0">
-            <Link to={'/aaauto/services'}>
+            <Link to={'/services'}>
               <button
                 className=" border-2  border-[#470cf8] px-2 rounded-md 
               text-[12px]  md:text-[16px] bg-white text-[#010459] font-bold  hover:bg-[#1b0459] hover:text-white scale-95 transition duration-400 ease-linear mt-2 hover:border-slate-100 "
@@ -42,7 +42,7 @@ const Hero = () => {
                 Explore More
               </button>
             </Link>
-            <Link to={'/aaauto/cars'}>
+            <Link to={'/cars'}>
               <button
                 className=" border-2  border-[#470cf8] px-2 rounded-md 
               text-[12px]  md:text-[16px] bg-white text-[#010459] font-bold  hover:bg-[#1b0459] hover:text-white scale-95 transition duration-400 ease-linear mt-2 hover:border-slate-100 "

@@ -114,7 +114,7 @@ const Brands = () => {
                       {
                         e.preventDefault();
                         navigate({
-                          pathname: '/aaauto/search',
+                          pathname: '/search',
                           search: `query=${brand.brandName}`,
                         });
                         window.scrollTo({
