@@ -22,8 +22,7 @@ const Footer = () => {
               <p className="mb-2 text-sm md:text-[16px]  leading-relaxed">
                 Adwa Rd.,
                 <br />
-                ABC building, <br />
-                3rd Floor, #301,
+                AAAUTOMRT Building #1001,                 
                 <br />
                 Phone : +251 911 123123
               </p>
