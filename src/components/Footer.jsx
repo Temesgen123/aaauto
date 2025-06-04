@@ -95,7 +95,7 @@ const Footer = () => {
                 e.preventDefault();
                 const brandName = 'toyota';
                 navigate({
-                  pathname: '/aaauto/search',
+                  pathname: '/search',
                   search: `query=${brandName}`,
                 });
                 handleLinkClick();

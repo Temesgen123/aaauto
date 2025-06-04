@@ -85,7 +85,7 @@ const Navbar = () => {
           About Us
         </Link>
         <Link to="/cars">Cars</Link>
-        <Link to="/aaauto/services">Services</Link>
+        <Link to="/services">Services</Link>
         <Link
           to="/contactus"
           className="border-2 w-full max-w-[250px] border-white py-1 px-4 rounded-md mx-auto"
