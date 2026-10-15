@@ -70,7 +70,7 @@ const Navbar = () => {
         className={`${
           menu ? 'translate-x-0' : '-translate-x-full'
         } md:hidden flex flex-col absolute z-10 bg-[#070342]
-         text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 min-h-screen h-fit rounded-br-xl transition-transform duration-500 `}
+         text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-3/4 min-h-screen rounded-br-xl transition-transform duration-500 `}
       >
         <Link
           to="/"
